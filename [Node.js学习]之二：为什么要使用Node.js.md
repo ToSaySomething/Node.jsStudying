@@ -10,9 +10,9 @@ Node.js跑的时候是一个单线程的主进程，它不会去创建多线程�
 
 下图，主线程的执行栈的图可能画得不是特别对，好像是我自己对项目的理解，只针对于在IO和异步情况下发生的事件处理，栈调用方法没有异步的情况都想着在瞬间可以处理的，不做考虑。
 
-![1567070698400](https://github.com/ToSaySomething/Node.jsStudying/raw/master/stack.png)
+![1567070698400](https://github.com/ToSaySomething/Node.jsStudying/raw/master/Pic/Three/stack.png)
 
-![1567069137943](https://github.com/ToSaySomething/Node.jsStudying/raw/master/all.png)
+![1567069137943](https://github.com/ToSaySomething/Node.jsStudying/raw/master/Pic/Three/all.png)
 
 ​		主线程跑的时候，类似C++的main跑下来有一个**stack**（执行栈），可能会调用其他的方法压入栈，运行完了之后再出栈，当客户端有多协议请求/异步（多IO请求）发到服务端时，主线程不会马上执行，只是会放入Event Queue （事件循环队列），然后进行Event Loop（事件循环），取出当前第一个事件，在线程池分配一个线程进行处理，以异步的方式将任务结果返回，再继续取出第二个直到事件处理完。
 
