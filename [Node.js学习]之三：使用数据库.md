@@ -1,8 +1,8 @@
 # [Node.js 学习]之三：使用数据
 深入学习：
- 1. [\[Node.js 学习\]之一：安装node](https://github.com/ToSaySomething/Node.jsStudying/blob/master/%5BNode.js学习%5D之一：安装nodejs搭环境.md)
+ 1. [\[Node.js学习\]之一：安装node](https://github.com/ToSaySomething/Node.jsStudying/blob/master/%5BNode.js学习%5D之一：安装nodejs搭环境.md)
  2. [\[Node.js学习\]之二：为什么要使用Node.js](https://github.com/ToSaySomething/Node.jsStudying/blob/master/%5BNode.js学习%5D之二：为什么要使用Node.js.md)
- 3. [\[[Node.js学习]之三：使用数据库](https://github.com/ToSaySomething/Node.jsStudying/blob/master/%5BNode.js学习%5D之三：使用数据库.md)
+ 3. [\[Node.js学习]之三：使用数据库](https://github.com/ToSaySomething/Node.jsStudying/blob/master/%5BNode.js学习%5D之三：使用数据库.md)
 ## **前言**
 
 ​		首先是结构化数据，根据定义结构化数据指的是由表结构来表现的数据，相同的行或者列的属性是相同的。因此我们大学的学习的关系型数据库很适用于这类。
